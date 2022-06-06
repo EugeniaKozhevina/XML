@@ -3,3 +3,4 @@
   <Severity>"critical"</Severity>
   <Description>"Home page shows error 404"</Description>
   <Expected result>"Home page is running"</Expected result>
+  
