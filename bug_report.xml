@@ -1,6 +1,11 @@
 <xml>
-  <Title>"Error 404 on home page"</Title>
-  <Severity>"critical"</Severity>
-  <Description>"Home page shows error 404"</Description>
-  <Expected result>"Home page is running"</Expected result>
-  
+  <ID>"Basket_018"</ID>
+  <Title>"Error while adding product to basket in preview"</Title>
+  <Severity>"Medium"</Severity>
+  <Priority>"3"</Priority>
+  <Environment>"Mobile app. Version: 4.5.7001 | OS version: Android 11"</Environment>
+  <Preconditions>"Run the Wildberries mobile app (link)"</Preconditions>
+  <Steps to reproduce>"1. In mobile app, enter any product name in the search field (for example, headphones - link). 2. Without going to the product card, add any product to the basket from the list."</Steps to reproduce>
+  <Actual result>"Product does't appear in the basket. Pop up error message: _Error during operation_. Screenshot _Error during operation_ attached."</Actual result>
+  <Expected result>"Product has been added to the basket from the list. User doesn't need to go to the product card."</Expected result>
+  <Attachments>"Screenshot _Error during operation_"</Attachments>
